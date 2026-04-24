@@ -15,10 +15,7 @@
 
 ทำตามขั้นตอนด้านล่างนี้เพื่อรันโปรเจกต์ในเครื่องของคุณ:
 
-**1. โคลนโปรเจกต์ลงมาที่เครื่อง (Clone the repository)**
-```bash
-git clone https://github.com/MathatPongchakoa/Playwright_Swag_Labs.git
-
+**1.โคลนโปรเจกต์โดยใช้คำสั่ง git clone https://github.com/MathatPongchakoa/Playwright_Swag_Labs.git
 **2. รันคำสั่ง cd Playwright_Swag_Labs ใน Terminal เพื่อเข้าถึงโปรเจค
 **3. รันคำสั่ง npm install ใน Terminal
 **4. รันคำสั่ง npx playwright install ใน Terminal
