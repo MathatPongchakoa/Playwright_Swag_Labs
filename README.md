@@ -30,6 +30,12 @@ npx playwright test --ui
 
 ---
 
+## 📄 เอกสารการทดสอบ (Test Documentation)
+เพื่อเป็นทางเลือกในการตรวจสอบรายละเอียดการทดสอบ สามารถเข้าชมเอกสารฉบับเต็มได้ที่ลิงก์ด้านล่างนี้:
+- **Manual Test Cases & Bug Report:** [คลิกเพื่อดูเอกสารบน Google Sheets](https://docs.google.com/spreadsheets/d/1nXqQTWxme4MqTz34TXwdbC5uP4ARlKtzphBM_SG8WkU/edit?usp=sharing)
+
+---
+
 ## ขอบเขตการทดสอบ (Test Coverage)
 
 การทดสอบครอบคลุมระบบหลักทั้งหมด 15 Test Cases ดังนี้:
@@ -44,4 +50,4 @@ npx playwright test --ui
 ## สมมติฐานและหมายเหตุ (Assumptions / Notes)
 
 - Test Data: ใช้บัญชีผู้ใช้ standard_user ในการทดสอบกรณีการทำงานปกติ (Happy Path)
-- Network Mocking: มีการใช้คำสั่ง page.route() เพื่อจำลอง HTTP Status 200 แทนการตอบกลับ 401 Unauthorized จากเซิร์ฟเวอร์จำลองของระบบหลังบ้าน เพื่อให้การทดสอบส่วน UI ดำเนินไปได้อย่างถูกต้องและไม่มีข้อความแสดงความผิดพลาดที่ไม่เกี่ยวข้องปรากฏในระบบ
+- Network Mocking: มีการใช้คำสั่ง page.route() เพื่อจำลอง HTTP Status 200 แทนการตอบกลับ 401 Unauthorized จากเซิร์ฟเวอร์จำลองของระบบหลังบ้าน เพื่อให้การทดสอบส่วน UI ดำเนินไปได้อย่างถูกต้อง
